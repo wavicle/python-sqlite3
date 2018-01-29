@@ -39,3 +39,5 @@ rows = cursor.execute('SELECT * FROM person')
 
 for row in rows:
   print (row)
+
+connection.close()
